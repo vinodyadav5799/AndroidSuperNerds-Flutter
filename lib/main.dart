@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic/screens/Home.dart';
 
 void main(){
-
-  runApp(
-    Center(
-      child:
-      Text(
-        "Hello Guys Welcome to AndroidSuperNerds",
-        textDirection: TextDirection.ltr
-      ),
-    )
-  );
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    title: "Exploring UI Widgets",
+    home: Home()
+  ));
 }
