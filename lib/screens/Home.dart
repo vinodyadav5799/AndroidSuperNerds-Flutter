@@ -10,8 +10,10 @@ class Home extends StatelessWidget{
       child: Container(
         alignment: Alignment.center,
         color: Colors.lightGreenAccent,
-        width: 200.0,
-        height: 100.0,
+        // width: 200.0,
+        // height: 100.0,
+        margin: EdgeInsets.all(40.0),
+        padding: EdgeInsets.only(left:45.0),
         child: Text("Hi Guys", textDirection: TextDirection.ltr),
       ),
     );
